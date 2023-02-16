@@ -1,0 +1,1 @@
+cp FullMC/*selec* SplitMC/.

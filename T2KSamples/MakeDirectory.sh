@@ -1,0 +1,2 @@
+mkdir FullMC
+mkdir SplitMC
