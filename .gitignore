@@ -2,3 +2,8 @@ MAQEhTools/NIWGReWeight/
 MAQEhTools/OAGenWeightsApps/
 MAQEhTools/T2KReWeight/
 MAQEhTools/neut/
+
+SKSamples/FullMC/
+SKSamples/SplitMC/
+T2KSamples/FullMC/
+T2KSamples/SplitMC/

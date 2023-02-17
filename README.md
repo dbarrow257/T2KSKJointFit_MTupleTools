@@ -22,11 +22,21 @@ root -b splitMC_AddFFF.C -> Splits mtuples by ATMPDEventType
 
 *** T2KSamples
 
+sh MakeDirectory.sh -> Setup working directories
+
 Copy MC into FullMC
+
 sh RunScript_T2KReweight_MAQEh.sh -> Generate MAQEh weights
 root -b AddMAQEWeights.cxx -> Copy MAQEh weights into mtuple
+
+Can delete *_MAQEh_weights*
+
 root -b ApplyLeptonMomentumCut.C -> MC provided by Lakshmi did not apply lepton momentum (OA2022) approach, thus need to apply momentum cut to get back to OA2020 methodology
 sh Go.sh -> Split MC by iclass
 sh MoveFiles.sh -> Move split files from FullMC to SplitMC
+
+Can delete FullMC/*
+
 python rename.py -> Rename split files to MaCh3 expectation
 root -b MakeNormHists.cxx -> Add norm hist to mtuples
+root -b RedoFluxWeights_SK.cxx -> Apply 13av7 flux weights
