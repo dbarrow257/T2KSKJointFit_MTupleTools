@@ -16,18 +16,18 @@ void AddMAQEWeights() {
   TString MTupleFileName = "sk4_fcmc_tau_pcmc_ummc_fQv4r0_sf_minituple_500yr.root";
 
   std::vector<TString> MTupleFiles;
-  MTupleFiles.push_back("fhc_nuebar_x_nuebar.root");
-  MTupleFiles.push_back("fhc_numubar_x_numubar.root");
-  MTupleFiles.push_back("rhc_nuebar_x_nuebar.root");
-  MTupleFiles.push_back("rhc_numubar_x_numubar.root");
-  MTupleFiles.push_back("fhc_nue_x_nue.root");
-  MTupleFiles.push_back("fhc_numu_x_nue.root");
-  MTupleFiles.push_back("rhc_nue_x_nue.root");
-  MTupleFiles.push_back("rhc_numu_x_nue.root");
-  MTupleFiles.push_back("fhc_numubar_x_nuebar.root");
-  MTupleFiles.push_back("fhc_numu_x_numu.root");
-  MTupleFiles.push_back("rhc_numubar_x_nuebar.root");
-  MTupleFiles.push_back("rhc_numu_x_numu.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.nuebar_x_nuebar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.numubar_x_numubar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.nuebar_x_nuebar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.numubar_x_numubar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.nue_x_nue.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.numu_x_nue.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.nue_x_nue.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.numu_x_nue.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.numubar_x_nuebar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.fhc.numu_x_numu.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.numubar_x_nuebar.root");
+  MTupleFiles.push_back("t2ksk19b.fqv4r0b.rhc.numu_x_numu.root");
 
   std::vector<TString> WeightFiles;
   WeightFiles.push_back("fhc_nuebar_x_nuebar_MAQE_Weights.root");

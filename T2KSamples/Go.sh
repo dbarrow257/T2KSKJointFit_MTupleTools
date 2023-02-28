@@ -1,13 +1,13 @@
-python2 makeSelectedMtuples.py FullMC/rhc_numu_x_numu_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/rhc_numu_x_nue_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/rhc_nue_x_nue_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/rhc_numubar_x_numubar_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/rhc_numubar_x_nuebar_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/rhc_nuebar_x_nuebar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.numu_x_numu_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.numu_x_nue_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.nue_x_nue_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.numubar_x_numubar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.numubar_x_nuebar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.rhc.nuebar_x_nuebar_wMomentumCut.root
 
-python2 makeSelectedMtuples.py FullMC/fhc_numu_x_numu_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/fhc_numu_x_nue_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/fhc_nue_x_nue_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/fhc_numubar_x_numubar_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/fhc_numubar_x_nuebar_wMomentumCut.root
-python2 makeSelectedMtuples.py FullMC/fhc_nuebar_x_nuebar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.numu_x_numu_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.numu_x_nue_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.nue_x_nue_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.numubar_x_numubar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.numubar_x_nuebar_wMomentumCut.root
+python2 makeSelectedMtuples.py FullMC/t2ksk19b.fqv4r0b.fhc.nuebar_x_nuebar_wMomentumCut.root

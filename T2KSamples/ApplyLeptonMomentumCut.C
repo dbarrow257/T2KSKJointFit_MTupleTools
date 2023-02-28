@@ -41,8 +41,8 @@ int ApplyLeptonMomentumCut() {
   TString FileDir = "./FullMC/";
 
   std::vector<TString> Prefix(2);
-  Prefix[0] = "fhc";
-  Prefix[1] = "rhc";
+  Prefix[0] = "t2ksk19b.fqv4r0b.fhc";
+  Prefix[1] = "t2ksk19b.fqv4r0b.rhc";
 
   std::vector<TString> Channel(6);
   Channel[0] = "nuebar_x_nuebar";
@@ -54,7 +54,7 @@ int ApplyLeptonMomentumCut() {
 
   for (int iPrefix=0;iPrefix<2;iPrefix++) {
     for (int iChannel=0;iChannel<6;iChannel++) {
-      TString FileName = FileDir+"/"+Prefix[iPrefix]+"_"+Channel[iChannel];
+      TString FileName = FileDir+"/"+Prefix[iPrefix]+"."+Channel[iChannel];
       std::cout << "Starting:" << FileName << std::endl;
       ApplyCut(FileName);
     }
