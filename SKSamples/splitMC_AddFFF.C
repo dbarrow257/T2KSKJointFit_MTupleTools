@@ -1,5 +1,7 @@
 #include <vector>
 
+const int ATMPDEventType_Offset = 400;
+
 double returnFFF(float FluxForFlavor[2],int fluxFlavor,int detFlavor) {
   if (fluxFlavor*detFlavor<0) {
     std::cout << "Mismatch in nu/nubar:" << fluxFlavor << " | " << detFlavor << std::endl;
@@ -142,7 +144,7 @@ int splitMC_AddFFF() {
       std::cout << "Something's gone wrong with channel:" << ipnu[0] << std::endl;
     }
 
-    index = (ATMPDEventType-1)*nChannels+(channel-1);
+    index = (ATMPDEventType-1-ATMPDEventType_Offset)*nChannels+(channel-1);
     if (index>MaxIndex) {
       std::cout << "Something's gone wrong with index:" << index << std::endl;
     }
@@ -184,7 +186,7 @@ int splitMC_AddFFF() {
       std::cout << "Something's gone wrong with channel:" << ipnu[0] << std::endl;
     }
 
-    index = (ATMPDEventType-1)*nChannels+(channel-1);
+    index = (ATMPDEventType-1-ATMPDEventType_Offset)*nChannels+(channel-1);
     if (index>MaxIndex) {
       std::cout << "Something's gone wrong with index:" << index << std::endl;
     }
